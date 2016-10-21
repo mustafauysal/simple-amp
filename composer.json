@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lullabot/amp": "^1.0.0"
+    }
+}
