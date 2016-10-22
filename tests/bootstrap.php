@@ -24,6 +24,5 @@ tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 // Start up the WP testing environment.
 require $_tests_dir . '/includes/bootstrap.php';
 
-//$status = activate_plugin( 'simple-amp/simple-amp.php' );
-$status = activate_plugin( 'easy-digital-downloads/easy-digital-downloads.php' );
+activate_plugin( 'simple-amp/simple-amp.php' );
 Simple_AMP_Helper::activate();
