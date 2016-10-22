@@ -2,14 +2,14 @@
 /**
  * Plugin Name:     Simple AMP
  * Plugin URI:      https://github.com/mustafauysal/simple-amp
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          Simple yet powerful AMP plugin
+ * Description:     A simple plugin that generates AMP pages based on current template.
+ * Author:          Mustafa Uysal
  * Author URI:      http://uysalmustafa.com
  * Text Domain:     simple-amp
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package         Simple_Amp
+ * @package         Simple_AMP
  */
 
 
