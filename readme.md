@@ -1,14 +1,6 @@
 Simple AMP [![Build Status](https://travis-ci.org/mustafauysal/simple-amp.svg?branch=master)](https://travis-ci.org/mustafauysal/simple-amp)
 ===============
 
-Contributors: m_uysl
-Tags: amp,accelerated mobile pages, mobile, google
-Requires at least: 3.7
-Tested up to: 4.6.1
-Stable tag: 0.1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
  A simple plugin that generates AMP pages based on current template.
 
 ## Description ##
@@ -58,9 +50,3 @@ You should consider adding some inline css.
 = Why it requires PHP 5.6? =
 
 Because, Simple AMP uses [amp-library](https://github.com/Lullabot/amp-library)
-
-
-## Changelog ##
-
-#### 0.1 ####
-* Initial version
