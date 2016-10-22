@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mustafauysal
- * Date: 21/10/2016
- * Time: 18:41
- */
-
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -35,7 +28,7 @@ class Simple_AMP {
 
 
 	public function prepare_amp() {
-		if ( $this->is_amp_endpoint() ) {
+		if ( Simple_AMP_Helper::is_amp_endpoint() ) {
 			$this->render();
 		} else {
 			$this->head();
@@ -92,7 +85,7 @@ class Simple_AMP {
 
 		if ( false !== apply_filters( 'simple_amp_debug', false ) ) {
 			// Print validation issues and fixes made to HTML provided in the $html string
-			print( $amp->warningsHumanText() );
+			echo $amp->warningsHumanText();
 		}
 
 		exit;
@@ -112,15 +105,6 @@ class Simple_AMP {
 		printf( '<link rel="amphtml" href="%s" />', esc_url( $amp_url ) );
 	}
 
-
-
-
-	/**
-	 * Are we currently on an AMP URL?
-	 */
-	public function is_amp_endpoint() {
-		return false !== get_query_var( SIMPLE_AMP_QUERY_VAR, false );
-	}
 
 
 	public function get_amp_url() {

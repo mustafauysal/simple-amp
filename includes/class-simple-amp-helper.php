@@ -52,5 +52,13 @@ class Simple_AMP_Helper {
 		flush_rewrite_rules();
 	}
 
+
+	/**
+	 * Are we currently on an AMP URL?
+	 */
+	public static function is_amp_endpoint() {
+		return false !== get_query_var( SIMPLE_AMP_QUERY_VAR, false );
+	}
+
 }
 
