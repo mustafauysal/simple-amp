@@ -18,5 +18,4 @@ phpcs.ruleset.xml
 README.md
 wp-cli.local.yml
 tests
-vendor
 node_modules
