@@ -60,5 +60,5 @@ Because, Simple AMP uses [amp-library](https://github.com/Lullabot/amp-library)
 
 == Changelog ==
 
-= 0.1 =
+= 0.1.0 =
 * Initial version
