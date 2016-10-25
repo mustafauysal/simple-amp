@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Simple_AMP_Helper {
 
-	const MIN_PHP_VERSION = '5.6';
+	const MIN_PHP_VERSION = '5.5';
 
 
 	public static function requirements_check() {
