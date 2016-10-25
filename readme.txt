@@ -60,7 +60,7 @@ Because, Simple AMP uses [amp-library](https://github.com/Lullabot/amp-library)
 
 == Changelog ==
 
-= 0.1.0 =
+= 0.1.1 =
 * PHP 5.5 support added
 
 = 0.1.0 =
