@@ -7,7 +7,7 @@
  * Author URI:      http://uysalmustafa.com
  * Text Domain:     simple-amp
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * @package         Simple_AMP
  */
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'SIMPLE_AMP_VERSION', '0.1.0' );
+define( 'SIMPLE_AMP_VERSION', '0.1.1' );
 
 
 define( 'SIMPLE_AMP_QUERY_VAR', apply_filters( 'simple_amp_query_var', 'amp' ) );

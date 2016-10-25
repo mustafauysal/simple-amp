@@ -3,7 +3,7 @@ Contributors: m_uysl
 Tags: amp,accelerated mobile pages, mobile, google
 Requires at least: 3.7
 Tested up to: 4.6.1
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,12 +53,15 @@ Extract the zip file and just drop the contents in the `wp-content/plugins/` dir
 
 You should consider adding some inline css.
 
-= Why it requires PHP 5.6? =
+= Why it requires PHP 5.5? =
 
 Because, Simple AMP uses [amp-library](https://github.com/Lullabot/amp-library)
 
 
 == Changelog ==
+
+= 0.1.0 =
+* PHP 5.5 support added
 
 = 0.1.0 =
 * Initial version

@@ -23,7 +23,7 @@ A ridiculously simple yet powerful plugin that automatically generates AMP pages
 
 
 
-**PHP requirement**:  This plugin only works with PHP 5.6 and above
+**PHP requirement**:  This plugin only works with PHP 5.5 and above
 
 
 ### Credits ###
@@ -47,6 +47,6 @@ Extract the zip file and just drop the contents in the `wp-content/plugins/` dir
 
 You should consider adding some inline css.
 
-= Why it requires PHP 5.6? =
+= Why it requires PHP 5.5? =
 
 Because, Simple AMP uses [amp-library](https://github.com/Lullabot/amp-library)
