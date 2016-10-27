@@ -29,7 +29,7 @@ A ridiculously simple yet powerful plugin that automatically generates AMP pages
 
 
 
-**PHP requirement**:  This plugin only works with PHP 5.6 and above
+**PHP requirement**:  This plugin only works with PHP 5.5 and above
 
 
 = Credits =
